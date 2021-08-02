@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:news_test/ui/list_news.dart';
 
+import 'TestChart.dart';
 import 'network/testFetchData.dart';
 
 void main() {
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         fontFamily: 'Raleway',
       ),
-      home: NewsList(),
+      home: ItemDetailsPage(),
     );
   }
 }
